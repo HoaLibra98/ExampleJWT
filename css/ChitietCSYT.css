@@ -1,0 +1,313 @@
+@import url("https://www.fontify.me/wf/73cc7736f74e447dfe91644e4e38be44");
+@import url("https://www.fontify.me/wf/28ea2e32b70da0a2480848ba03cd6146");
+
+.box{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .hr{
+    width:100%;
+    height:2.3px;
+    background-color:#2073bb;
+  }
+  .tab-links{
+    font-family: Open Sans,sans-serif;
+    letter-spacing: -0.9px;
+    margin-bottom: 31px;
+    margin-top: 30px;
+  }
+  .tab-links>span{
+    width:7px;
+    height:15px;
+    margin-right:7px;
+    display:inline-block;
+    background-color:#1a1aa2;
+  }
+  .tab-links a{
+    color:black;
+    display:inline-block;
+    font-size:15px;
+    opacity:0.85;
+  }
+  .tab-links a:nth-child(2){
+    font-weight:645;
+  }
+  .tab-links a:nth-child(3){
+    display:inline-block;
+    margin-right:15px;
+    margin-left:3px;
+  }
+  .tab-links a:last-child,.tab-links a:nth-child(3){
+    opacity:0.7;
+  }
+  .location-CSYT h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin: 20px 0px;
+  }
+  .location-CSYT span{
+     font-size: 27px;
+     font-family: cursive;
+     color: #404040;
+  }
+  .add-location-CY {
+    width: 100%;
+    height: auto;
+    border: 1px solid #98B4E3;
+  }
+  .add-location-CY iframe {
+    width: 100%;
+    height: 380px;
+  }
+  .evaluate p:first-child {
+    font-size: 30px;
+    font-family: serif;
+    color: #575757;
+  }
+  .evaluate p:nth-child(2){
+    color: #F5A81E;
+  }
+  .evaluate p:nth-child(2) span{
+   color:#303030;
+  }
+  .content-CSYT {
+    margin-top: 34px;
+  }
+  .evaluate p:last-child{
+    color: #3F8CF1;
+    font-size: 15px;
+  }
+  .content-main-CSYT {
+    margin: 30px 0px;
+  }
+  .evaluate{
+    float:left;
+    width: 82%;
+  }
+  .logoBenhVien{
+    float:left;
+    width: 18%;
+  }
+  .logoBenhVien img{
+    width:91px;
+    height:90px;
+  }
+  
+  .csyt-info{
+    margin-bottom:7px;
+  }
+  .crossbar{
+    background-color: rgb(225,225,225);
+    height: 0.5px;
+    width: 100%; 
+  }
+  .contact-SCYT{
+    padding:30px 0px;
+  }
+  .contact-SCYT button{
+    border:none;
+    border-radius:5px;
+  }
+  .contact-SCYT button:first-child,.contact-SCYT button:last-child{
+    padding: 11px 25px;
+    font-size:19px;
+    border:0.5px solid rgba(0,0,0,0.2);
+  }
+  .contact-SCYT button:first-child{
+    color:#00987D;
+    background-color:white;
+    margin-right:15px;
+  }
+  .contact-SCYT button img{
+    margin-right:10px;
+  }
+  .contact-SCYT button:last-child{
+    color:white;
+    background-color:#0658A9;
+  }
+  .service p{
+    margin-bottom:7px;
+  }
+  .service p img{
+    margin-right: 15px;
+  }
+  .service p:last-child{
+    margin-bottom:55px;
+  }
+  .service p:first-child{
+    color: #3755A8;
+  }
+  .service{
+   border-bottom:0.5px solid rgba(0,0,0,0.7); 
+  }
+  .padd-l{
+    padding-left:0px !important;
+  }
+  .padd-r{
+    padding-right:0px !important;
+  }
+  .row-r{
+    margin-right:0px;
+  }
+  .description{
+    padding-top:25px
+  }
+  .description p{
+    margin-bottom:7px;
+  }
+  .description p:first-child{
+    margin-top:5px;
+  }
+  .detail-CSYT #myTab a,.detail-CSYT p{
+    color:#000;
+  }
+  #home{
+    padding:0px;
+  }
+  .detail-CSYT ul{
+    margin:25px 0px 15px 0px;
+  }
+  .detail-CSYT ul .active{
+    margin-right:30px;
+    font-weight:500;
+    border-bottom:2px solid #2C60AF !important;
+  }
+  .nav-tabs .nav-link {
+    border: none;
+  }
+  .detail-CSYT ul li a{
+    padding:0px;
+    font-size:18px;
+  }
+  #myTabContent{
+    font-weight:490;
+    font-size: 17px;
+  }
+  .nav-tabs {
+    border-bottom: 1px solid #c7c8ca !important;
+  }
+  .img-info-csyt div:first-child{
+    width: 75%;
+    float:left;
+    padding-right:10px;
+    height: 100%;
+  }
+  .img-info-csyt div:last-child{
+    width: 25%;
+    float:left;
+    /* height: 100%; */
+  }
+  .img-info-csyt div:first-child img{
+    width:100%;
+    /* height: 100%; */
+  }
+  .img-info-csyt div:last-child img{
+    width:100%;
+    padding-bottom:8px;
+    height: 50%;
+  }
+  .row{
+    margin-right:0 !important; margin-left:0 !important;
+  }
+  @media (min-width:320px) and (max-width:767px){
+    .location-CSYT h2{
+        font-size:17px;
+    }
+    .evaluate p:first-child {
+    font-size: 22px;
+    }
+    .contact-SCYT button:first-child {
+    color: #00987D;
+    background-color: white;
+    margin-right: 10px;
+  }
+  .contact-SCYT button:last-child {
+    color: white;
+    background-color: #0658A9;
+  }
+  
+  .contact-SCYT button:first-child, .contact-SCYT button:last-child {
+    padding: 10px 16px;
+    font-size: 15px;
+    border: 0.5px solid rgba(0,0,0,0.2);
+  }
+  
+  .contact-SCYT button img{
+    width: 19px;
+    height:20px;
+  }
+  .service{
+    font-size:13px;
+  }
+  .cs320{
+    padding:0px;
+  }
+  .evaluate {
+    width: 69%;
+  }
+  .logoBenhVien{
+    width:31%;
+    text-align: right;
+  }
+  }
+  
+  @media (min-width:768px) and (max-width:991px){
+    .location-CSYT h2{
+        font-size:20px;
+    }
+    .img-info-csyt div:first-child img {
+    height: 300px !important;
+    }
+    .evaluate p:first-child {
+    font-size: 27px;
+  }
+  .contact-SCYT button:first-child {
+    margin-right: 10px;
+  }
+  
+  .contact-SCYT button:first-child, .contact-SCYT button:last-child {
+    padding: 10px 16px;
+    font-size: 19px;
+  }
+    .img-info-csyt div:last-child img {
+        height:150px !important;
+    }
+    .cs320{
+    padding:0px;
+    }
+    .evaluate {
+        width: 65%;
+    }
+    .logoBenhVien{
+        width:34%;
+        text-align: right;
+    }
+  }
+  
+  @media (min-width:992px) and (max-width:1366px){
+    .logoBenhVien img{
+        width:100%;
+    }
+    .evaluate {
+    width: 80%;
+  }
+  .logoBenhVien{
+    width:20%
+  }
+  .img-info-csyt div:first-child img {
+    height: 400px !important;
+    }
+  .img-info-csyt div:last-child img {
+        height:200px !important;
+    }
+  }
+  @media (min-width:1367px){
+    .img-info-csyt div:first-child img {
+    height: 450px !important;
+    }
+  .img-info-csyt div:last-child img {
+        height:225px !important;
+    }
+  }

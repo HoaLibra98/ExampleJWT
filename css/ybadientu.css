@@ -1,0 +1,373 @@
+@import url("https://www.fontify.me/wf/73cc7736f74e447dfe91644e4e38be44");
+@import url("https://www.fontify.me/wf/28ea2e32b70da0a2480848ba03cd6146");
+.hr {
+  width: 100%;
+  height: 2.3px;
+  background-color: #2073bb;
+}
+ul {
+  list-style-type: none !important;
+}
+a {
+  cursor: pointer;
+}
+#ybadientu-tk {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#ybadientu-tk span {
+  line-height: 35px;
+  font-size: 16px;
+  letter-spacing: -0.8px;
+  color: rgb(0, 0, 0);
+  font-family: font92679;
+  font-weight: bold;
+}
+
+#ybadientu-tk img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #2aa691;
+  margin-right: 14px;
+}
+#ybadientu-tk label {
+  position: absolute;
+  top: -4px;
+  font-size: 12px;
+  left: 40px;
+  background-color: rgb(212, 61, 33);
+  border-radius: 3px;
+  color: white;
+  letter-spacing: -0.6px;
+  padding: 4px 4px 5px 3px;
+  font-family: "Myriad Pro Regular";
+}
+.ybadientu-content {
+  width: 100%;
+  margin-top: 57px;
+  border: 1px solid rgb(225, 225, 225);
+  margin-bottom: 84px;
+}
+.ybadientu-content::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.ybadientu-personalInfo {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(225, 225, 2225);
+}
+.ybadientu-user {
+  width: 100%;
+  background-color: rgb(48, 96, 173);
+  text-align: center;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.ybadientu-userTitle {
+  font-size: 22px;
+  letter-spacing: 0.66px;
+  color: white;
+  font-family: font92679;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.ybadientu-changePass {
+  font-size: 16px;
+  letter-spacing: 0.33px;
+  color: rgb(100, 224, 255);
+  font-family: font92679;
+  margin-bottom: 20px;
+}
+.ybadientu-img {
+  position: relative;
+}
+.ybadientu-img > img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  display: inline-block;
+}
+.ybadientu-img label img {
+  position: absolute;
+  bottom: 4px;
+  right: 42%;
+}
+.ybadientu-menuInfo {
+  width: 100%;
+}
+.ybadientu-menuInfo ul {
+  width: 100%;
+}
+.ybadientu-menuInfo ul li {
+  width: 100%;
+  height: 72px;
+  border: 1px solid rgb(225, 225, 225);
+  line-height: 72px;
+  padding-left: 2.5%;
+}
+.ybadientu-menuInfo ul li:last-child {
+  position: relative;
+}
+.ybadientu-menuInfo ul li:last-child label {
+  display: block;
+  float: right;
+  margin-right: 26px;
+  margin-top: 20px;
+  background-color: rgb(212, 61, 33);
+  border-radius: 3px;
+  color: white;
+  letter-spacing: -0.6px;
+  padding: 6px 6px 5px 3px;
+  font-family: "Myriad Pro Regular";
+  line-height: 1;
+}
+.ybadientu-menuInfo ul li p {
+  display: inline-block;
+  width: 51px;
+  height: 51px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  margin-right: 0.5%;
+}
+.ybadientu-menuInfo ul li:hover {
+  background-color: #ebf0f7;
+}
+.ybadientu-menuInfo ul li:hover .ybadientu-menuInfo ul li p {
+  background-color: #cfd9ea;
+}
+.ybadientu-menuInfo ul li a {
+  font-family: font92679;
+  font-size: 16px;
+  letter-spacing: -0.08px;
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  display: inline-block;
+}
+.ybadientu-infoBV {
+  width: 100%;
+  padding: 25px 18px 55px 18px;
+}
+.ybadientu-title {
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.96px;
+  font-family: font92679;
+  color: rgb(0, 106, 198);
+  width: 100%;
+  text-align: center;
+  margin-bottom: 31px;
+}
+.ybadientu-search {
+  width: 100%;
+  margin-bottom: 47px;
+}
+.ybadientu-search select {
+  padding: 10px 105px 9px 25px;
+  border-radius: 20px;
+  border: 2px solid rgb(183, 183, 183);
+  font-size: 18px;
+  color: rgb(48, 96, 173);
+  letter-spacing: -0.09px;
+  font-family: font92679;
+}
+
+.ybadientu-resSearch {
+  width: 100%;
+}
+.reSearch1-yba {
+  width: 100%;
+  margin-bottom: 45px;
+}
+.time-title {
+  font-size: 16px;
+  width: 100%;
+  letter-spacing: 0.48px;
+  color: rgba(0, 0, 0, 0.64);
+  margin-bottom: 12px;
+  font-family: "Myriad Pro Regular";
+}
+.info-resSearch {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 24px 30px 0px 30px;
+  border: 1px solid rgb(225, 225, 225);
+  box-shadow: 0.8px 1.8px 9.8px 0.2px rgba(0, 0, 0, 0.12);
+}
+.title-res {
+  font-size: 24px;
+  letter-spacing: -0.12px;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: font92679;
+  margin-bottom: 18px;
+}
+.content-info-res {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.64);
+  letter-spacing: 0.54px;
+  font-family: "Myriad Pro Regular";
+  margin-bottom: 20px;
+}
+.button-resSearch-yba {
+  width: 100%;
+  position: relative;
+}
+.ybadientu-resSearch button {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: none;
+}
+.button-resSearch-yba button:first-child a {
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0.39px;
+  font-family: font92679;
+}
+.button-resSearch-yba button:first-child {
+  background: rgb(0, 151, 124);
+  padding: 11px 13px 13px 16px;
+}
+.button-resSearch-yba button:last-child {
+  border-top: 1px solid rgb(231, 68, 36);
+  border-left: 1px solid rgb(231, 68, 36);
+  border-right: 1px solid rgb(231, 68, 36);
+  background-color: white;
+  padding: 11px 13px 12px 15px;
+}
+.button-resSearch-yba button:last-child a {
+  color: rgb(212, 61, 33);
+  font-size: 13px;
+  letter-spacing: 0.39px;
+  font-family: font92679;
+}
+.box-ybadientu-datkham {
+  width: 100%;
+  height: 182px;
+}
+.ybadientu-datkham {
+  width: 48%;
+  float: left;
+  box-shadow: 0.8px 1.8px 9.8px 0.2px rgba(0, 0, 0, 0.12);
+  background-color: white;
+  margin-right: 2%;
+  text-align: center;
+  border-radius: 8px;
+  padding: 50px 55px;
+  height: 100%;
+}
+.ybadientu-datkham img {
+  margin-bottom: 45px;
+}
+.ybadientu-datkham p {
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: font92679;
+  text-transform: uppercase;
+}
+.info-resSearch2 {
+  width: 48%;
+  float: left;
+  box-shadow: 0.8px 1.8px 9.8px 0.2px rgba(0, 0, 0, 0.12);
+  background-color: white;
+  margin-left: 2%;
+  border-radius: 8px;
+  height: 100%;
+  padding: 29px 29px 0px 29px;
+}
+.title-resSearch2 {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  letter-spacing: 0.6px;
+  font-family: "Myriad Pro Semibold";
+  margin-bottom: 17px;
+}
+.button-resSearch2-yba {
+  text-align: center;
+  width: 100%;
+}
+.button-resSearch2-yba button {
+  background: rgb(0, 151, 124);
+  color: white;
+  padding: 11px 13px 13px 16px;
+}
+.button-resSearch2-yba button a {
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0.39px;
+  font-family: font92679;
+}
+.btn-info-yba {
+  width: 100%;
+  text-align: center;
+  margin: 33px 0 0px 0;
+}
+.btn-info-yba button {
+  border: none;
+  background-color: white;
+}
+.btn-info-yba button a {
+  font-size: 16px;
+  color: rgb(48, 96, 173);
+  letter-spacing: 0.48px;
+  font-family: font92679;
+  text-decoration: underline !important;
+}
+
+@media (max-width: 1199px) {
+  .box-ybadientu-datkham {
+    display: flex !important;
+    flex-direction: column-reverse;
+    height: auto;
+    width: 100%;
+  }
+  .ybadientu-datkham {
+    width: 100%;
+    margin-right: 0;
+  }
+  .info-resSearch2 {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .ybadientu-menuInfo ul li a {
+    font-size: 13px;
+  }
+}
+@media (max-width: 406px) {
+  .ybadientu-content::after {
+    display: block;
+  }
+  .ybadientu-search {
+    text-align: center;
+  }
+  .ybadientu-search select {
+    padding: 10px 15px 9px 30px;
+    font-size: 16px;
+  }
+  .ybadientu-title {
+    font-size: 26px;
+  }
+  .title-res {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:392px){
+  .button-resSearch-yba button{
+    width:100%;
+  }
+  .button-resSearch-yba button:first-child{
+    margin-bottom:10px;
+    border-radius:8px;
+  }
+}

@@ -1,0 +1,886 @@
+@import url("https://www.fontify.me/wf/73cc7736f74e447dfe91644e4e38be44");
+@import url("https://www.fontify.me/wf/28ea2e32b70da0a2480848ba03cd6146");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clear-fix{
+  content: "";
+  clear: both;
+  display: table;
+}
+img {
+  vertical-align: baseline !important;
+}
+header {
+  padding: 10px 0;
+  width: 100%;
+}
+.logo {
+  float: left;
+  width: 30%;
+}
+nav {
+  float: left;
+  width: 70%;
+}
+._nav {
+  display: none;
+}
+header nav ul > a {
+  display: none;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+header ul {
+  display: flex !important;
+  width: 100%;
+  padding-top: 10px;
+  justify-content: flex-end;
+}
+
+header ul li {
+  margin-left: 30px;
+}
+.menulogin {
+  line-height: 33px;
+}
+header nav ul li a {
+  font-family: font92679;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  font-weight: bold;
+}
+header nav ul li img {
+  margin-right: 9px;
+}
+.menulogin a {
+  color: rgb(0, 151, 124);
+}
+.banner {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+}
+.bg-search {
+  position: relative;
+  margin-top: -171px;
+  background-color: rgb(255, 252, 252);
+  box-shadow: 0 0 12.9px 1.1px rgba(0, 0, 0, 0.2);
+  padding: 30px 35px;
+  border-radius: 5px;
+}
+.navigate {
+  position: absolute;
+  top: -48px;
+  left: 4%;
+}
+.navigate a {
+  color: white;
+  font-size: 22px;
+  letter-spacing: 0.66px;
+  font-family: font92679;
+  padding: 18px 19px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: rgb(48, 96, 173);
+}
+.navigate a:first-child {
+  margin-right: 0px;
+}
+.navigate a img {
+  margin-right: 11px;
+}
+.tab-content {
+  width: 100%;
+}
+.tab-panel {
+  width: 100%;
+}
+.tab-panel label {
+  width: 100%;
+  font-size: 18px;
+  letter-spacing: 0.54px;
+  font-family: "Myriad Pro Regular";
+  margin-bottom: 10px;
+  display:block;
+}
+.search {
+  width: 100%;
+  margin-bottom: 45px;
+}
+.search form {
+  width: 100%;
+}
+.search input {
+  width: 81%;
+  float: left;
+  margin-right: 1%;
+  font-size: 20px;
+  padding: 21px 28px;
+  color: rgba(0, 0, 0, 0.64);
+  letter-spacing: 0.6px;
+  font-family: "Myriad Pro Regular";
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.search button {
+  width: 18%;
+  float: left;
+  font-size: 22px;
+  letter-spacing: 0.66px;
+  color: white;
+  background-color: rgb(212, 61, 33);
+  font-family: font92679;
+  padding: 21px 28px;
+  border: none;
+}
+.logo-search {
+  display: none;
+}
+.search-fast {
+  width: 100%;
+}
+.search-fast a {
+  display: inline-block;
+
+  color: white;
+
+  background: rgb(0, 151, 124);
+
+  font-size: 16px;
+
+  padding: 10px 17px;
+
+  margin-right: 9px;
+
+  border-radius: 5px;
+}
+.content {
+  margin-top: 78px;
+}
+.title-content {
+  font-family: "PlayfairDisplay-Regular";
+  font-size: 24px;
+  letter-spacing: -0.12px;
+  color: black;
+  margin-bottom: 21px;
+}
+.content-main {
+  width: 100%;
+}
+.list-item {
+  width: 100%;
+  padding: 7px 0;
+  border-top: 1px dashed rgba(0, 0, 0, 0.4);
+}
+.img-item,
+.descrip,
+.how-use,
+.origin {
+  float: left;
+}
+.img-item {
+  width: 8%;
+  border: 1px solid rgb(225, 225, 225);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 87px;
+}
+.descrip {
+  width: 29%;
+  height: 100%;
+  padding-top: 10px;
+  padding-left: 32px;
+}
+.descrip p {
+  line-height: 11px;
+}
+.descrip p:first-child {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  font-family: font92679;
+}
+.descrip p:nth-child(2) {
+  font-size: 14px;
+  color: rgb(49, 96, 182);
+  font-family: sans-serif;
+}
+.descrip p:last-child {
+  font-size: 14px;
+  color: black;
+  font-family: font92671;
+}
+.how-use {
+  width: 34%;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  padding-top: 12px;
+}
+.origin {
+  width: 29%;
+  padding-left: 53px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(0, 151, 124, 0.8);
+  font-family: sans-serif;
+  padding-top: 24px;
+}
+.csyt-next {
+  width: 100%;
+  margin: 33px 0 77px 0;
+  text-align: center;
+}
+.csyt-next button {
+  border: 1px solid rgb(225 225 225);
+
+  box-shadow: 0 0 7.7px 0.3px rgba(0, 0, 0, 0.08);
+
+  color: rgb(11, 88, 168);
+
+  letter-spacing: -0.08px;
+
+  font-size: 16px;
+
+  font-family: font92679;
+
+  background-color: white;
+
+  padding: 14px 39px;
+
+  border-radius: 25px;
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+  font-family: sans-serif;
+}
+.contact {
+  width: 35%;
+  float: left;
+  height: 100%;
+}
+.img-contact {
+  background-image: url("../images/bg-footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  padding: 90px 20px;
+}
+.info-contact {
+  width: 57%;
+  float: right;
+  color: white;
+}
+.info-contact p {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.title-contact {
+  font-size: 22px;
+  margin-bottom: 30px;
+  display: inline-block;
+  border-bottom: 1px solid rgb(237, 246, 246);
+  letter-spacing: 0.33px;
+  text-transform: uppercase;
+}
+.info-contact span {
+  display: inline-block;
+  width: 80%;
+  word-wrap: break-word;
+  vertical-align: top;
+}
+.info-contact i {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+  width: 10%;
+}
+.add-map {
+  float: left;
+  width: 65%;
+  height: 100%;
+}
+.add-map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1367px) and (min-width: 1200px) {
+  .bg-search {
+    margin-top: -160px;
+  }
+  .navigate {
+    top: -45px;
+  }
+  .navigate a {
+    padding: 16px 17px;
+    font-size: 18px;
+  }
+  .search {
+    margin-bottom: 30px;
+  }
+  .search input {
+    padding: 14px 23px;
+    width: 84%;
+    font-size: 18px;
+  }
+  .search button {
+    padding: 15px 5px;
+    width: 15%;
+    font-size: 19px;
+  }
+  .search-fast a {
+    padding: 9px 17px;
+  }
+  .title-content {
+    font-size: 23px;
+  }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  #panel {
+    position: fixed;
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    right: 0;
+    background-color: rgba(250, 250, 250, 0.99);
+    box-shadow: 0 0 12.9px 1.1px rgba(0, 0, 0, 0.2);
+  }
+  ._nav {
+    display: block;
+    width: 70%;
+    float: left;
+    text-align: right;
+    margin-top: 10px;
+  }
+  #panel ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 74px;
+    padding-left: 30px;
+  }
+  #panel ul li {
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+  #closebtn {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+  }
+
+  .bg-search {
+    margin-top: -141px;
+    padding: 28px 30px;
+  }
+  .navigate {
+    top: -44px;
+  }
+  .navigate a {
+    padding: 15px 17px;
+    font-size: 18px;
+  }
+  .search {
+    margin-bottom: 30px;
+  }
+  .search input {
+    padding: 11px 23px;
+    width: 84%;
+    font-size: 17px;
+  }
+  .search button {
+    padding: 11px 5px;
+    width: 15%;
+    font-size: 18px;
+  }
+  .search-fast a {
+    padding: 5px 17px;
+    font-size: 15px;
+  }
+  .title-content {
+    font-size: 20px;
+  }
+  .img-item {
+    width: 9%;
+
+    height: 87px;
+  }
+  .descrip {
+    width: 30%;
+    padding-left: 15px;
+  }
+  .how-use {
+    width: 31%;
+  }
+  .origin {
+    width: 30%;
+    padding-left: 40px;
+  }
+  .contact {
+    float: none;
+    width: 100%;
+  }
+  .info-contact {
+    float: left;
+  }
+  .img-contact {
+    padding: 90px 39px;
+  }
+  .info-contact i {
+    width: 4%;
+  }
+  .add-map {
+    float: none;
+    width: 100%;
+  }
+  footer {
+    height: 383px !important;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  #panel {
+    position: fixed;
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    right: 0;
+    background-color: rgba(250, 250, 250, 0.99);
+    box-shadow: 0 0 12.9px 1.1px rgba(0, 0, 0, 0.2);
+  }
+  ._nav {
+    display: block;
+    width: 70%;
+    float: left;
+    text-align: right;
+    margin-top: 10px;
+  }
+  #panel ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 87px;
+    padding-left: 30px;
+  }
+  #panel ul li {
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+  #closebtn {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+  }
+
+  .bg-search {
+    margin-top: -122px;
+    padding: 20px 25px;
+  }
+  .navigate {
+    top: -35px;
+    left: 6%;
+  }
+  .navigate a {
+    padding: 13px 17px;
+    font-size: 16px;
+  }
+  .tab-panel label {
+    font-size: 16.5px;
+  }
+  .navigate a:first-child img {
+    width: 12px;
+
+    height: 17px;
+  }
+  .navigate a:last-child img {
+    width: 20px;
+
+    height: 18px;
+  }
+  .search {
+    margin-bottom: 28px;
+  }
+  .search input {
+    padding: 11px 23px;
+    width: 84%;
+    font-size: 16px;
+  }
+  .btn-search {
+    display: none;
+  }
+  .logo-search {
+    display: block;
+  }
+  .search button {
+    padding: 10.5px 5px;
+    width: 15%;
+    font-size: 18px;
+  }
+  .search-fast a {
+    padding: 5px 17px;
+    font-size: 14px;
+  }
+  .title-content {
+    font-size: 20px;
+  }
+  .csyt-768 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .csyt-768::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .img-item {
+    width: 12%;
+    height: 87px;
+  }
+  .descrip {
+    width: 88%;
+    padding-left: 15px;
+  }
+  .how-use {
+    width: 100%;
+    float: none;
+    padding-top: 6px;
+  }
+  .origin {
+    width: 100%;
+    float: none;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .contact {
+    float: none;
+    width: 100%;
+  }
+  .info-contact {
+    float: left;
+  }
+  .img-contact {
+    padding: 90px 39px;
+  }
+  .info-contact i {
+    width: 4%;
+  }
+  .add-map {
+    float: none;
+    width: 100%;
+  }
+  footer {
+    height: 383px !important;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 510px) {
+  #panel {
+    position: fixed;
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    right: 0;
+    background-color: rgba(250, 250, 250, 0.99);
+    box-shadow: 0 0 12.9px 1.1px rgba(0, 0, 0, 0.2);
+  }
+  ._nav {
+    display: block;
+    width: 70%;
+    float: left;
+    text-align: right;
+    margin-top: 10px;
+  }
+  #panel ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 74px;
+    padding-left: 30px;
+  }
+  #panel ul li {
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+  #closebtn {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+  }
+
+  .bg-search {
+    margin-top: -99px;
+    padding: 15px 20px;
+  }
+  .navigate {
+    top: -35px;
+    left: 6%;
+  }
+  .navigate a {
+    padding: 13px 17px;
+    font-size: 15px;
+  }
+  .tab-panel label {
+    font-size: 15.5px;
+  }
+  .navigate a:first-child img {
+    width: 12px;
+
+    height: 17px;
+  }
+  .navigate a:last-child img {
+    width: 20px;
+
+    height: 18px;
+  }
+  .search {
+    margin-bottom: 20px;
+  }
+  .search input {
+    padding: 7px 23px;
+    width: 84%;
+    font-size: 14px;
+  }
+  .btn-search {
+    display: none;
+  }
+  .logo-search {
+    display: block;
+  }
+  .search button {
+    padding: 7.5px 5px;
+    width: 15%;
+    font-size: 15px;
+  }
+  .search-fast a {
+    padding: 5px 17px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-family: 'Myriad Pro Regular';
+  }
+  .title-content {
+    font-size: 20px;
+  }
+  .csyt-768 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .csyt-768::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .img-item {
+    width: 17%;
+    height: 79px;
+  }
+  .descrip {
+    width: 83%;
+    padding-left: 15px;
+  }
+  .how-use {
+    width: 100%;
+    float: none;
+    padding-top: 6px;
+  }
+  .origin {
+    width: 100%;
+    float: none;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .contact {
+    float: none;
+    width: 100%;
+  }
+  .info-contact {
+    float: left;
+    width: 90%;
+  }
+  .img-contact {
+    display: flex;
+    align-items: center;
+  }
+  .info-contact i {
+    width: 4%;
+  }
+  .add-map {
+    float: none;
+    width: 100%;
+  }
+  footer {
+    height: 383px !important;
+  }
+}
+@media (max-width: 509px){
+  #panel {
+    position: fixed;
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    right: 0;
+    background-color: rgba(250, 250, 250, 0.99);
+    box-shadow: 0 0 12.9px 1.1px rgba(0, 0, 0, 0.2);
+  }
+  ._nav {
+    display: block;
+    width: 70%;
+    float: left;
+    text-align: right;
+    margin-top: 15px;
+  }
+  #panel ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 74px;
+    padding-left: 30px;
+  }
+  #panel ul li {
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+  #closebtn {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+  }
+
+  .bg-search {
+    margin-top: -80px;
+    padding: 13px 20px;
+  }
+  .navigate {
+    top: -28px;
+    left: 6%;
+  }
+  .navigate a {
+    padding: 10px 13px;
+    font-size: 13px;
+  }
+  .tab-panel label {
+    font-size: 14.5px;
+    margin-bottom: 4px;
+  }
+  .navigate a:first-child img {
+    width: 12px;
+    height: 14px;
+  }
+  .navigate a:last-child img {
+    width: 16px;
+    height: 15px;
+  }
+  .search {
+    margin-bottom: 15px;
+  }
+  .search input {
+    padding: 6px 12px;
+    width: 84%;
+    font-size: 14px;
+  }
+  .btn-search {
+    display: none;
+  }
+  .logo-search {
+    display: block;
+  }
+  .search button {
+    padding: 6.5px 5px;
+    width: 15%;
+    font-size: 15px;
+  }
+  .search-fast a {
+    padding: 3px 17px;
+    font-size: 13px;
+    margin-bottom: 6px;
+    font-family: 'Myriad Pro Regular';
+  }
+  .content{
+
+margin-top: 50px;
+
+}
+ 
+  .title-content {
+    font-size: 17px;
+  }
+  .csyt-768 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .csyt-768::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .img-item {
+    width: 17%;
+    height: 79px;
+  }
+  .descrip {
+    width: 83%;
+    padding-left: 15px;
+  }
+  .descrip p:first-child{
+    
+font-size: 16.5px;
+  }
+  .how-use {
+    width: 100%;
+    float: none;
+    padding-top: 6px;
+  }
+  .origin {
+    width: 100%;
+    float: none;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .contact {
+    float: none;
+    width: 100%;
+  }
+  .info-contact {
+    float: left;
+    width: 90%;
+  }
+  .img-contact {
+    display: flex;
+    align-items: center;
+  }
+  .info-contact i {
+    width: 4%;
+  }
+  .add-map {
+    float: none;
+    width: 100%;
+  }
+  footer {
+    height: 383px !important;
+  }
+}
